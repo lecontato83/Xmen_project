@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.svg" alt="X-men">
+       
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-discription="Ele tem o poder de disparar rajadas ópticas por um acidente queaconteceu com ele quando criança, mas não consegue controlá-los" >
+            <img
+              src="./src/imagens/card-ciclope.jpg"
+              alt="Personagem Ciclope"
+            />
+          </li>
+          <li class="personagem" id="jean-grey" data-name= "Jean Grey" data-discription="Ela é uma mutante nível Ômega, a maior telepata que
+           existe (até mesmo maior Charles Xavier e Emma Frost)" >
+            <img
+              src="./src/imagens/card-jean-grey.jpg"
+              alt="Personagem Jean Grey"
+            />
+          </li>
+
+          <li class="personagem" id="lince-negra" data-name= "lince Negra" data-discription="Originalmente denominada Ninfa, ela integrou a quarta formação dos X-Men, utilizando ao máximo sua habilidade de atravessar objetos sólidos e andar no ar.">
+            <img
+              src="./src/imagens/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+
+          <li class="personagem" id="tempestade" data-name= "Tempestade" data-discription="Senhora dos Elementos, Bruxa do Tempo, Deusa da Chuva, Andarilha dos Ventos, Rainha de Wakanda.">
+            <img
+              src="./src/imagens/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+
+          <li class="personagem" id="vampira" data-name= "Vampira" data-discription="Seu poder mutante é a habilidade de absorver a vitalidade, memórias, habilidades e poderes de outros seres vivos através do contato com a pele.">
+            <img
+              src="./src/imagens/card-vampira.jpg"
+              alt="Personagem Vampira"
+            />
+          </li>
+
+          <li class="personagem" id="Wolverine" data-name= "Wolverine" data-discription="Nascido mutante, seus poderes incluem sentidos aguçados, garras retrateis e grande capacidade regenerativa (chamado fator de cura).">
+            <img
+              src="./src/imagens/card-wolverine.jpg"
+              alt="Personagem Wolverine"
+            />
+          </li>
+
+          <li class="personagem" id="noturno" data-name= "Noturno" data-discription=" É muito brincalhão e adora fazer pegadinhas com os outros. Tem uma grande amizade com Ciclope e Lince Negra, além de ser irmão adotivo de Vampira e filho de Mística.">
+            <img
+              src="./src/imagens/card-noturno.jpg"
+              alt="Personagem Noturno"
+            />
+          </li>
+
+          <li class="personagem" id="magneto" data-name= "Magneto" data-discription="Magneto é o mutante Erik Magnus Lehnsherr, com a capacidade de controle e manipulação de campos magnéticos bem como qualquer tipo de metal. Nascido em uma família judaica, foi perseguido e feito prisioneiro em Auschwitz na II Guerra Mundial.">
+            <img
+              src="./src/imagens/card-magneto.jpg"
+              alt="Personagem Magneto"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-ciclope.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança, mas não consegue controlá-los
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
